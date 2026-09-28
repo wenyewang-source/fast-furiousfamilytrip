@@ -1,0 +1,1651 @@
+{
+  "$schema": "./schemas/trip-data.schema.json",
+  "schemaVersion": "2.0-lite",
+  "config": {
+    "schemaVersion": "1.0.0",
+    "modules": {
+      "flights": true,
+      "overview": true,
+      "itinerary": true,
+      "todo": true,
+      "driving": true,
+      "ledger": true
+    },
+    "language": "en-US",
+    "persistence": {
+      "mode": "local"
+    }
+  },
+  "metadata": {
+    "tripId": "austin-families-nov-2026",
+    "title": "Fast & Furious Family Trip | Austin · Nov 13–17, 2026",
+    "language": "en-US",
+    "assets": {
+      "routeMaps": [
+        "assets/maps/templates/template-04-urban.webp"
+      ]
+    },
+    "timeZone": "America/Chicago"
+  },
+  "trip": {
+    "status": "draft",
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-17",
+    "dayCount": 5,
+    "nightCountAway": 4,
+    "countries": [
+      {
+        "code": "US",
+        "name": "United States",
+        "nameEn": "United States"
+      }
+    ],
+    "primaryDestinationCountries": [
+      "US"
+    ],
+    "citiesAndAreas": [
+      "Austin",
+      "Lake Travis"
+    ],
+    "routeSummary": "8+ adults, 2 tiny copilots, and absolutely no racing the nap schedule.",
+    "groupSize": 10,
+    "primaryDestinationName": "Austin",
+    "heroTitle": "Fast & Furious Family Trip",
+    "heroEyebrow": "AUSTIN · BIG BBQ ENERGY · LITTLE TRAVEL BUDDIES"
+  },
+  "flightJourneys": [
+    {
+      "id": "outbound",
+      "status": "proposed",
+      "title": "Proposed outbound—not booked"
+    },
+    {
+      "id": "return",
+      "status": "proposed",
+      "title": "Proposed return—not booked"
+    }
+  ],
+  "flights": [
+    {
+      "id": "wn954",
+      "journeyId": "outbound",
+      "sequence": 1,
+      "airline": {
+        "name": "Southwest · PROPOSED / NOT BOOKED"
+      },
+      "flightNumber": "WN 954",
+      "departure": {
+        "airportCode": "BWI",
+        "city": "Baltimore",
+        "date": "2026-11-13",
+        "time": "08:05",
+        "utcOffset": "-05:00"
+      },
+      "arrival": {
+        "airportCode": "AUS",
+        "city": "Austin",
+        "date": "2026-11-13",
+        "time": "10:55",
+        "utcOffset": "-06:00"
+      }
+    },
+    {
+      "id": "wn2140",
+      "journeyId": "return",
+      "sequence": 1,
+      "airline": {
+        "name": "Southwest · PROPOSED / NOT BOOKED"
+      },
+      "flightNumber": "WN 2140",
+      "departure": {
+        "airportCode": "AUS",
+        "city": "Austin",
+        "date": "2026-11-17",
+        "time": "11:55",
+        "utcOffset": "-06:00"
+      },
+      "arrival": {
+        "airportCode": "BWI",
+        "city": "Baltimore",
+        "date": "2026-11-17",
+        "time": "16:05",
+        "utcOffset": "-05:00"
+      }
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "airbnb",
+      "name": "Selected 5-bedroom Airbnb — not booked",
+      "url": "https://www.airbnb.com/rooms/1229948985782096397",
+      "checkIn": "2026-11-13",
+      "checkOut": "2026-11-17",
+      "notes": [
+        "Both duplex units; 5 bedrooms, 4 bathrooms, 6 beds. Exact address to confirm after booking.",
+        "Previously displayed $1,984 for four nights for 8 adults + 2 infants; final checkout taxes/terms need confirmation."
+      ]
+    }
+  ],
+  "groundTransport": {
+    "rentalCar": {
+      "company": "Alamo · 2 vans · NOT BOOKED",
+      "rentalPeriodDays": 4,
+      "vehicle": {
+        "example": "Chrysler Pacifica or similar × 2",
+        "class": "Two 7-passenger minivans; 4 adults + 1 child per van"
+      },
+      "unlimitedKilometers": false,
+      "price": {
+        "currency": "USD",
+        "payAtCounter": 1474.7
+      },
+      "insurance": [
+        "Optional protection is not included in the displayed quote. Confirm your existing coverage and choose at booking.",
+        "Displayed per-van options: Damage Waiver $29.99/day; Supplemental Liability $20.54/day. Prices may change."
+      ],
+      "pickup": {
+        "date": "2026-11-13",
+        "time": "12:00",
+        "location": "AUS Rental Car Facility",
+        "address": "3819 Presidential Blvd, Austin, TX 78719",
+        "utcOffset": "-06:00"
+      },
+      "dropoff": {
+        "date": "2026-11-17",
+        "time": "09:00",
+        "timeZoneLabel": "Austin local time · CST (UTC−6)",
+        "vehicleReturnPoint": "AUS Rental Car Facility, 3819 Presidential Blvd",
+        "deadlineWarning": "Proposed return time—not a booked deadline. Adjust if your flight changes.",
+        "recommendedArrivalTime": "08:45",
+        "utcOffset": "-06:00"
+      }
+    },
+    "rentalChecklist": [
+      "Quote snapshot: $737.35 per 7-seat van, Pay Later, Nov 13 noon–Nov 17 09:00, driver age 25+. Includes taxes and fees; excludes optional extras.",
+      "Two vans at the same rate total $1,474.70. Second-vehicle inventory/rate is not guaranteed. Two separate named-driver reservations are needed.",
+      "Walk from Barbara Jordan Terminal through the marked crosswalks/garage to the rental facility. Allow time to install car seats.",
+      "Bring physical licenses and accepted payment cards in each renter’s name; additional drivers must be approved by the company.",
+      "Child safety seat: $13.99/day, $55.96 for four days per seat before any additional tax. Bring your own familiar seats or confirm model, size and availability with Alamo.",
+      "Confirm two eligible drivers; quote assumed age 25+. Branch phone: 844-366-2656.",
+      "Eligible spouse/domestic partner generally free; other additional drivers generally $15/day, subject to contract exceptions.",
+      "Prepay quote was $702.64 per van; Pay Later $737.35. Review cancellation terms. Return at required fuel level."
+    ],
+    "drivingNotes": [
+      "Planning allowance: two vans + fuel/parking/tolls $1,625–1,725 for the group, before optional seats/protection/drivers and nightlife rideshares.",
+      "Driving times are estimates from the approximate Airbnb area; its exact address is not available.",
+      "Use rideshares for cousins’ bar nights. Have one non-drinking driver per van for the Oasis outing.",
+      "Eight-seat minivan quote was $876.16 per vehicle, Pay Later. Recheck space if more adults join.",
+      "Budget snapshot: flights ~$3,736 for eight paying adults extrapolated from a 4-adult quote; Airbnb $1,984; vans $1,474.70. Subtotal ~$7,194.70 (~$899.34/adult), before food, fuel, optional activities and extras. These are planning figures, not bookable guarantees.",
+      "Final headcount, flight selection, driver eligibility and car-seat choices remain to confirm."
+    ],
+    "drivingReferenceLinks": [
+      {
+        "label": "Alamo AUS — quote again & rental policies",
+        "url": "https://www.alamo.com/en/car-rental-locations/us/tx/austin-bergstrom-international-airport-65x3.html"
+      },
+      {
+        "label": "Avis AUS — alternative quote (minivan drivers 25+)",
+        "url": "https://www.avis.com/en/locations/nam/us/tx/austin/aus"
+      },
+      {
+        "label": "Southwest — recheck Choice fares and flight times",
+        "url": "https://www.southwest.com/"
+      },
+      {
+        "label": "United — compare IAD morning option",
+        "url": "https://www.united.com/"
+      },
+      {
+        "label": "Austin November sunset calendar",
+        "url": "https://www.timeanddate.com/sun/usa/austin?month=11&year=2026"
+      }
+    ],
+    "plannedRoadLegs": [],
+    "publicTransitAndRail": []
+  },
+  "days": [
+    {
+      "day": 1,
+      "id": "day-1",
+      "date": "2026-11-13",
+      "title": "Wheels down. Brisket up.",
+      "locations": [
+        "AUS",
+        "la Barbecue",
+        "Airbnb"
+      ],
+      "schedule": [
+        {
+          "time": "08:05",
+          "text": "Proposed Southwest WN 954: BWI 08:05 → AUS 10:55. Choice fare previously quoted $1,868 for 4 adults + 1 lap infant round trip (~$467 per paying adult). Not booked; reprice the full group. Standard seat choice + carry-on; checked bags extra.",
+          "type": "flight",
+          "id": "d1-item1"
+        },
+        {
+          "time": "10:55–13:00",
+          "text": "Arrive, collect luggage, walk to the airport rental facility, and install car seats. Allow 90–120 minutes; avoid a tight lunch reservation.",
+          "type": "transfer",
+          "placeId": "aus",
+          "id": "d1-item2"
+        },
+        {
+          "time": "13:00",
+          "text": "la Barbecue if the line is manageable. Share brisket, ribs and sausage. If delayed, choose an easy lunch and move BBQ to another open day. Friday service currently 11:00–18:00; food can sell out.",
+          "type": "restaurant",
+          "placeId": "labarbecue",
+          "ticketIds": [
+            "la-info"
+          ],
+          "id": "d1-item3"
+        },
+        {
+          "time": "14:00–16:00",
+          "text": "Flexible grocery stop and downtime before check-in. Early Airbnb access is not confirmed; keep the pre-check-in period flexible around the babies.",
+          "type": "note",
+          "id": "d1-item4"
+        },
+        {
+          "time": "16:00",
+          "text": "Check in to your selected Airbnb: 5 bedrooms, 4 baths, 6 beds across both duplex units; two kitchens and two living rooms. Check-in listed 16:00–23:00; checkout by 10:00.",
+          "type": "check-in",
+          "ticketIds": [
+            "stay"
+          ],
+          "id": "d1-item5"
+        },
+        {
+          "time": "18:00",
+          "text": "Easy dinner at home or nearby. Unpack, put your feet up, and call it a win.",
+          "type": "rest",
+          "id": "d1-item6"
+        }
+      ],
+      "notes": [
+        "All times are local. Austin is one hour behind DC in November.",
+        "Group: 8+ adults and two toddlers around 16–17 months. Final headcount to confirm.",
+        "Suggested rooms: babies with parents in the downstairs king/queen rooms; third family upstairs king; cousins share remaining rooms. Verify crib availability and room layout with host before booking.",
+        "Alternative flight: United IAD 08:30 → AUS 11:19 previously found; flight number and return still to confirm. Nonbasic round-trip search lead was $2,116 for 4 adults + 1 lap infant, not a final itinerary."
+      ]
+    },
+    {
+      "day": 2,
+      "id": "day-2",
+      "date": "2026-11-14",
+      "title": "Big views, bigger BBQ energy",
+      "locations": [
+        "Mount Bonnell",
+        "Franklin",
+        "Optional bars"
+      ],
+      "schedule": [
+        {
+          "time": "08:45",
+          "text": "Leave for Mount Bonnell; allow 20–30 minutes plus parking.",
+          "type": "drive",
+          "placeId": "bonnell",
+          "id": "d2-item1"
+        },
+        {
+          "time": "09:15–10:15",
+          "text": "Mount Bonnell: short climb, Lake Austin views, and photos. Free entry and parking. 102 stone steps or a rough gravel trail; use baby carriers, not strollers.",
+          "type": "attraction",
+          "placeId": "bonnell",
+          "ticketIds": [
+            "bonnell-info"
+          ],
+          "id": "d2-item2"
+        },
+        {
+          "time": "10:15–11:15",
+          "text": "Return toward the house. Families settle in while one or two adults collect lunch.",
+          "type": "rest",
+          "id": "d2-item3"
+        },
+        {
+          "time": "11:30–12:15",
+          "text": "Target Franklin preorder pickup 11:30–12:00, then lunch at home. Minimum 5 lb; slots open 56 days ahead and are not held. Suggested order: 3 lb brisket + 1 lb ribs + 1 lb sausage + 3 pints of sides. Previously about $225 with tax, before tip.",
+          "type": "restaurant",
+          "placeId": "franklin",
+          "ticketIds": [
+            "franklin-order"
+          ],
+          "id": "d2-item4"
+        },
+        {
+          "time": "13:00–15:30",
+          "text": "Nap time for the tiny crew; free time for everyone else. Coffee, a couch, or a solo wander—your call.",
+          "type": "rest",
+          "id": "d2-item5"
+        },
+        {
+          "time": "16:00–19:00",
+          "text": "A little neighborhood stroll if you feel like it, then a light dinner. Save room for the evening.",
+          "type": "rest",
+          "id": "d2-item6"
+        },
+        {
+          "time": "20:30",
+          "text": "Cousins’ optional cocktail night at The Roosevelt Room. Request a reservation; 307 W 5th St. Budget $45–70 per adult for two cocktails with tax/tip (estimate). Rideshare from the house.",
+          "type": "restaurant",
+          "placeId": "roosevelt",
+          "ticketIds": [
+            "roosevelt-book"
+          ],
+          "id": "d2-item7"
+        },
+        {
+          "time": "22:30",
+          "text": "Optional second stop: The White Horse, 500 Comal St, for live country music and two-stepping. 21+; walk-in and variable cover. Budget $25–50 (estimate). Rideshare home when ready.",
+          "type": "restaurant",
+          "placeId": "whitehorse",
+          "ticketIds": [
+            "whitehorse-info"
+          ],
+          "id": "d2-item8"
+        }
+      ],
+      "notes": [
+        "The bar outing is optional; families can stay home. Both minivans stay parked for the drinking group.",
+        "Rainy or slippery at Mount Bonnell? Skip the climb. Extra coffee time is a perfectly good plan."
+      ]
+    },
+    {
+      "day": 3,
+      "id": "day-3",
+      "date": "2026-11-15",
+      "title": "Slow Sunday, golden-hour crew",
+      "locations": [
+        "Mueller",
+        "Lake Travis",
+        "The Oasis"
+      ],
+      "schedule": [
+        {
+          "time": "10:00–11:00",
+          "text": "Optional Mueller farmers market at Branch Park Pavilion, 2006 Philomena St. Sunday hours 10:00–14:00. Breakfast, browsing, and a short walk.",
+          "type": "walk",
+          "placeId": "mueller",
+          "ticketIds": [
+            "market-info"
+          ],
+          "id": "d3-item1"
+        },
+        {
+          "time": "12:00",
+          "text": "Easy lunch at home. For the serious BBQ fans: Interstellar preorder collected by a couple of adults. $120 minimum and at least 72 hours notice; no indoor seating for preorders. Keep the babies’ day local.",
+          "type": "restaurant",
+          "ticketIds": [
+            "interstellar-order"
+          ],
+          "id": "d3-item2"
+        },
+        {
+          "time": "13:00–15:00",
+          "text": "Recharge time. Naps for the little ones, a slow afternoon for the rest of us.",
+          "type": "rest",
+          "id": "d3-item3"
+        },
+        {
+          "time": "15:15",
+          "text": "Drive to The Oasis. Allow approximately 35–50 minutes from the Airbnb area plus parking; exact route depends on the final address.",
+          "type": "drive",
+          "placeId": "oasis",
+          "id": "d3-item4"
+        },
+        {
+          "time": "16:00–18:00",
+          "text": "The Oasis on Lake Travis: early dinner, drinks, and sunset views. Aim for 16:00–16:15 arrival, 60–90 minutes before sunset (~17:34). Main dining is walk-in; a view table for ten is not guaranteed. Be willing to split into nearby tables.",
+          "type": "restaurant",
+          "placeId": "oasis",
+          "ticketIds": [
+            "oasis-info"
+          ],
+          "id": "d3-item5"
+        },
+        {
+          "time": "18:00–19:00",
+          "text": "Drive home for a relaxed evening. Designate a non-drinking driver in each van.",
+          "type": "rest",
+          "id": "d3-item6"
+        }
+      ],
+      "notes": [
+        "Oasis planning allowance: $35–55 per adult including a casual meal, drink, tax and tip; estimate only.",
+        "If cloudy or rainy, swap the sunset outing with another afternoon when practical.",
+        "Fort Worth Stockyards is omitted: roughly 190 miles each way, with 7–9 hours round-trip travel allowing for traffic and baby breaks. Save it for a DFW trip."
+      ]
+    },
+    {
+      "day": 4,
+      "id": "day-4",
+      "date": "2026-11-16",
+      "title": "Springs, smoke & one more bite",
+      "locations": [
+        "Barton Springs",
+        "Terry Black’s",
+        "Lady Bird Lake"
+      ],
+      "schedule": [
+        {
+          "time": "09:30–10:45",
+          "text": "Barton Springs / Zilker Park. Water averages 68–70°F; make swimming optional. Main entrance: 2201 William Barton Dr. No food or coolers inside the pool.",
+          "type": "attraction",
+          "placeId": "barton",
+          "ticketIds": [
+            "barton-ticket"
+          ],
+          "id": "d4-item1"
+        },
+        {
+          "time": "11:00–12:15",
+          "text": "Terry Black’s BBQ, 1003 Barton Springs Rd. Arrive early for lunch; share brisket and ribs, and consider a beef rib as the splurge. Walk-in seating and wait depend on demand.",
+          "type": "restaurant",
+          "placeId": "terry",
+          "ticketIds": [
+            "terry-info"
+          ],
+          "id": "d4-item2"
+        },
+        {
+          "time": "13:00–15:30",
+          "text": "Back to home base for naps and a proper break. Nobody has to do anything.",
+          "type": "rest",
+          "id": "d4-item3"
+        },
+        {
+          "time": "16:00–17:00",
+          "text": "Optional short Lady Bird Lake stroll near Auditorium Shores. Choose an out-and-back segment rather than attempting the full loop; turn around whenever the group is ready.",
+          "type": "walk",
+          "placeId": "lake",
+          "id": "d4-item4"
+        },
+        {
+          "time": "17:00",
+          "text": "Optional cousins’ alternative: P6 at The LINE for lake-view drinks. Reserve ahead; standard reservations up to 12. Budget $35–65 per person for drinks and a shared snack (estimate).",
+          "type": "restaurant",
+          "placeId": "p6",
+          "ticketIds": [
+            "p6-book"
+          ],
+          "id": "d4-item5"
+        },
+        {
+          "time": "18:30",
+          "text": "One last easy dinner, a little packing, and an early night. Future airport-you will be grateful.",
+          "type": "rest",
+          "id": "d4-item6"
+        }
+      ],
+      "notes": [
+        "Barton Springs: current city page lists nonresident adult admission $9; confirm whether fees apply in November. Buy at the entrance or official portal if required. Monday parking currently listed free.",
+        "Lake walk, rooftop drinks, or the couch? Pick your own adventure."
+      ]
+    },
+    {
+      "day": 5,
+      "id": "day-5",
+      "date": "2026-11-17",
+      "title": "Coffee, carry-ons & see you soon",
+      "locations": [
+        "Airbnb",
+        "AUS",
+        "BWI"
+      ],
+      "schedule": [
+        {
+          "time": "07:00–08:00",
+          "text": "Coffee, breakfast, and the final suitcase shuffle. Give the car seats and stroller puzzle a little extra time.",
+          "type": "note",
+          "id": "d5-item1"
+        },
+        {
+          "time": "08:15",
+          "text": "Check out and leave for AUS. Airbnb checkout deadline is 10:00; this earlier departure matches the proposed flight.",
+          "type": "check-out",
+          "id": "d5-item2"
+        },
+        {
+          "time": "08:45–09:00",
+          "text": "Return both minivans at the AUS rental facility; return fuel at the required level. Aim to reach the terminal by about 09:15.",
+          "type": "return",
+          "placeId": "aus",
+          "id": "d5-item3"
+        },
+        {
+          "time": "11:55–16:05",
+          "text": "Proposed Southwest WN 2140: AUS 11:55 → BWI 16:05. Not booked. Times are local; itinerary must be rechecked at purchase.",
+          "type": "flight",
+          "id": "d5-item4"
+        }
+      ],
+      "notes": [
+        "If you choose a different return flight, adjust the rental return and airport departure together."
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "aus",
+      "name": "Austin Airport",
+      "countryCode": "US",
+      "geo": {
+        "lat": 30.1975,
+        "lng": -97.6664
+      },
+      "address": "Austin-Bergstrom International Airport",
+      "navigation": {
+        "query": "Austin-Bergstrom International Airport"
+      }
+    },
+    {
+      "id": "bonnell",
+      "name": "Mount Bonnell",
+      "countryCode": "US",
+      "geo": {
+        "lat": 30.3217,
+        "lng": -97.7733
+      },
+      "address": "3800 Mount Bonnell Rd Austin TX",
+      "navigation": {
+        "query": "3800 Mount Bonnell Rd Austin TX"
+      }
+    },
+    {
+      "id": "franklin",
+      "name": "Franklin Barbecue",
+      "countryCode": "US",
+      "geo": {
+        "lat": 30.2701,
+        "lng": -97.7313
+      },
+      "address": "900 E 11th St Austin TX",
+      "navigation": {
+        "query": "900 E 11th St Austin TX"
+      }
+    },
+    {
+      "id": "labarbecue",
+      "name": "la Barbecue",
+      "countryCode": "US",
+      "geo": {
+        "lat": 30.2543,
+        "lng": -97.7177
+      },
+      "address": "2401 E Cesar Chavez St Austin TX",
+      "navigation": {
+        "query": "2401 E Cesar Chavez St Austin TX"
+      }
+    },
+    {
+      "id": "mueller",
+      "name": "Mueller Market",
+      "countryCode": "US",
+      "geo": {
+        "lat": 30.303,
+        "lng": -97.705
+      },
+      "address": "2006 Philomena St Austin TX",
+      "navigation": {
+        "query": "2006 Philomena St Austin TX"
+      }
+    },
+    {
+      "id": "oasis",
+      "name": "The Oasis",
+      "countryCode": "US",
+      "geo": {
+        "lat": 30.4053,
+        "lng": -97.8748
+      },
+      "address": "6550 Comanche Trail Austin TX",
+      "navigation": {
+        "query": "6550 Comanche Trail Austin TX"
+      }
+    },
+    {
+      "id": "barton",
+      "name": "Barton Springs",
+      "countryCode": "US",
+      "geo": {
+        "lat": 30.264,
+        "lng": -97.7713
+      },
+      "address": "2201 William Barton Dr Austin TX",
+      "navigation": {
+        "query": "2201 William Barton Dr Austin TX"
+      }
+    },
+    {
+      "id": "terry",
+      "name": "Terry Black’s BBQ",
+      "countryCode": "US",
+      "geo": {
+        "lat": 30.2597,
+        "lng": -97.754
+      },
+      "address": "1003 Barton Springs Rd Austin TX",
+      "navigation": {
+        "query": "1003 Barton Springs Rd Austin TX"
+      }
+    },
+    {
+      "id": "lake",
+      "name": "Lady Bird Lake",
+      "countryCode": "US",
+      "geo": {
+        "lat": 30.265,
+        "lng": -97.756
+      },
+      "address": "Auditorium Shores Austin TX",
+      "navigation": {
+        "query": "Auditorium Shores Austin TX"
+      }
+    },
+    {
+      "id": "roosevelt",
+      "name": "The Roosevelt Room",
+      "countryCode": "US",
+      "geo": {
+        "lat": 30.2676,
+        "lng": -97.7461
+      },
+      "address": "307 W 5th St Austin TX",
+      "navigation": {
+        "query": "307 W 5th St Austin TX"
+      }
+    },
+    {
+      "id": "whitehorse",
+      "name": "The White Horse",
+      "countryCode": "US",
+      "geo": {
+        "lat": 30.263,
+        "lng": -97.7278
+      },
+      "address": "500 Comal St Austin TX",
+      "navigation": {
+        "query": "500 Comal St Austin TX"
+      }
+    },
+    {
+      "id": "p6",
+      "name": "P6 at The LINE",
+      "countryCode": "US",
+      "geo": {
+        "lat": 30.262,
+        "lng": -97.7442
+      },
+      "address": "111 E Cesar Chavez St Austin TX",
+      "navigation": {
+        "query": "111 E Cesar Chavez St Austin TX"
+      }
+    },
+    {
+      "id": "interstellar",
+      "name": "Interstellar BBQ",
+      "countryCode": "US",
+      "geo": {
+        "lat": 30.462,
+        "lng": -97.814
+      },
+      "address": "12233 Ranch Road 620 N Suite 105 Austin TX",
+      "navigation": {
+        "query": "12233 Ranch Road 620 N Suite 105 Austin TX"
+      }
+    }
+  ],
+  "restaurants": [],
+  "bookingsAndTickets": [],
+  "ticketPlanning": {
+    "statusStorage": "local",
+    "statusStorageNote": "Booking checks are saved only in this browser. All arrangements start unbooked.",
+    "items": [
+      {
+        "id": "la-info",
+        "day": 1,
+        "name": "la Barbecue — hours & menu",
+        "requirement": "needs-confirmation",
+        "purchaseStatus": "not-booked",
+        "officialUrl": "https://labarbecue.com/",
+        "guidance": [
+          "Proposed meal. Wednesday–Sunday, currently 11:00–18:00."
+        ]
+      },
+      {
+        "id": "stay",
+        "day": 1,
+        "name": "Selected Airbnb — NOT BOOKED",
+        "requirement": "needs-confirmation",
+        "purchaseStatus": "not-booked",
+        "officialUrl": "https://www.airbnb.com/rooms/1229948985782096397",
+        "guidance": [
+          "Previous quote: $1,984 / 4 nights for 8 adults + 2 infants; final price and cancellation terms to recheck.",
+          "5 bedrooms, 4 baths: 2 king beds, 2 queen beds, 2 doubles. Parking listed for 4–5 vehicles.",
+          "Exact address, crib availability and layout to confirm."
+        ]
+      },
+      {
+        "id": "bonnell-info",
+        "day": 2,
+        "name": "Mount Bonnell — visitor guide",
+        "requirement": "needs-confirmation",
+        "purchaseStatus": "not-booked",
+        "officialUrl": "https://www.austintexas.org/austin-insider-blog/blog/post/mount-bonnell-for-beginners/",
+        "guidance": [
+          "Free entry; no ticket needed. Rough trail and 102 steps; bring carriers."
+        ]
+      },
+      {
+        "id": "franklin-order",
+        "day": 2,
+        "name": "Franklin preorder — NOT ORDERED",
+        "requirement": "advance-required",
+        "purchaseStatus": "not-booked",
+        "officialUrl": "https://preorder.franklinbbq.com/",
+        "guidance": [
+          "Target Nov 14, 11:30–12:00 pickup. Minimum 5 lb; availability is not held."
+        ]
+      },
+      {
+        "id": "roosevelt-book",
+        "day": 2,
+        "name": "The Roosevelt Room — NOT RESERVED",
+        "requirement": "advance-recommended",
+        "purchaseStatus": "not-booked",
+        "officialUrl": "https://www.therooseveltroomatx.com/reservations",
+        "guidance": [
+          "Target Saturday 20:30 for participating cousins only.",
+          "Up to 10 online; 11+ requires inquiry. $15/person for no-show or cancellation within 2 hours."
+        ]
+      },
+      {
+        "id": "whitehorse-info",
+        "day": 2,
+        "name": "The White Horse — live music",
+        "requirement": "needs-confirmation",
+        "purchaseStatus": "not-booked",
+        "officialUrl": "https://www.thewhitehorseaustin.com/",
+        "guidance": [
+          "Optional 21+ walk-in outing; check calendar and cover closer to travel."
+        ]
+      },
+      {
+        "id": "market-info",
+        "day": 3,
+        "name": "Mueller farmers market",
+        "requirement": "needs-confirmation",
+        "purchaseStatus": "not-booked",
+        "officialUrl": "https://texasfarmersmarket.org/mueller",
+        "guidance": [
+          "Sunday 10:00–14:00. Optional morning stop."
+        ]
+      },
+      {
+        "id": "interstellar-order",
+        "day": 3,
+        "name": "Optional Interstellar — NOT ORDERED",
+        "requirement": "advance-recommended",
+        "purchaseStatus": "not-booked",
+        "officialUrl": "https://www.theinterstellarbbq.com/faq",
+        "guidance": [
+          "Preorder minimum $120; at least 72 hours ahead. Adult pickup only to avoid a longer baby ride."
+        ]
+      },
+      {
+        "id": "oasis-info",
+        "day": 3,
+        "name": "The Oasis — walk-in sunset dinner",
+        "requirement": "needs-confirmation",
+        "purchaseStatus": "not-booked",
+        "officialUrl": "https://www.oasis-austin.com/faqs/",
+        "guidance": [
+          "6550 Comanche Trail; (512) 266-2442. Main dining takes no reservations.",
+          "Arrive 60–90 minutes before sunset. Table location and group seating not guaranteed."
+        ]
+      },
+      {
+        "id": "barton-ticket",
+        "day": 4,
+        "name": "Barton Springs — admission to confirm",
+        "requirement": "needs-confirmation",
+        "purchaseStatus": "not-booked",
+        "officialUrl": "https://www.austintexas.gov/services/visit-barton-springs-pool",
+        "guidance": [
+          "Current nonresident adult rate $9; confirm November fee policy. Monday parking listed free.",
+          "Official page links to ticket portal; kiosk purchase also available. No food/coolers inside."
+        ]
+      },
+      {
+        "id": "terry-info",
+        "day": 4,
+        "name": "Terry Black’s — Austin menu",
+        "requirement": "needs-confirmation",
+        "purchaseStatus": "not-booked",
+        "officialUrl": "https://terryblacksbbq.com/austin",
+        "guidance": [
+          "Proposed walk-in lunch, not reserved."
+        ]
+      },
+      {
+        "id": "p6-book",
+        "day": 4,
+        "name": "Optional P6 — NOT RESERVED",
+        "requirement": "advance-recommended",
+        "purchaseStatus": "not-booked",
+        "officialUrl": "https://www.thelinehotel.com/austin/restaurants-bars/p6/",
+        "guidance": [
+          "Lake-view rooftop at The LINE, 111 E Cesar Chavez St. Reserve for the actual participating group."
+        ]
+      }
+    ]
+  },
+  "preTrip": {
+    "packingItems": [],
+    "preparationsExplicitlyMentioned": [],
+    "missingNote": "Add your own tasks. No bookings have been made."
+  },
+  "mapLinks": {
+    "providedGoogleMapsLinks": [],
+    "note": "",
+    "cityLevelNavigationDisabled": false,
+    "navigationPolicy": {
+      "noNavigationTypes": [
+        "flight",
+        "note",
+        "rest"
+      ],
+      "selfNavigationTypes": [
+        "drive",
+        "return",
+        "transfer",
+        "check-in",
+        "check-out",
+        "restaurant",
+        "attraction",
+        "walk",
+        "hike"
+      ]
+    },
+    "navigationPlaces": []
+  },
+  "issuesAndUncertainties": [
+    "All arrangements are proposed and not booked. Research/quote snapshots from September 2026; prices, availability and operating hours may change.",
+    "No passenger names, booking numbers or exact Airbnb address supplied.",
+    "Map coordinates are approximate public-place locations and the map is schematic; use linked Google Maps for directions."
+  ],
+  "map": {
+    "schemaVersion": "1.0-lite",
+    "mapMode": "template-auto",
+    "templateId": "auto",
+    "disclaimer": "Schematic only: relative locations and route order, not true scale. Open Google Maps for navigation.",
+    "places": [
+      {
+        "id": "aus",
+        "name": "Austin Airport",
+        "label": "Austin Airport",
+        "geo": {
+          "lat": 30.1975,
+          "lng": -97.6664
+        },
+        "countryCode": "US",
+        "query": "Austin-Bergstrom International Airport"
+      },
+      {
+        "id": "bonnell",
+        "name": "Mount Bonnell",
+        "label": "Mount Bonnell",
+        "geo": {
+          "lat": 30.3217,
+          "lng": -97.7733
+        },
+        "countryCode": "US",
+        "query": "3800 Mount Bonnell Rd Austin TX"
+      },
+      {
+        "id": "franklin",
+        "name": "Franklin Barbecue",
+        "label": "Franklin Barbecue",
+        "geo": {
+          "lat": 30.2701,
+          "lng": -97.7313
+        },
+        "countryCode": "US",
+        "query": "900 E 11th St Austin TX"
+      },
+      {
+        "id": "labarbecue",
+        "name": "la Barbecue",
+        "label": "la Barbecue",
+        "geo": {
+          "lat": 30.2543,
+          "lng": -97.7177
+        },
+        "countryCode": "US",
+        "query": "2401 E Cesar Chavez St Austin TX"
+      },
+      {
+        "id": "mueller",
+        "name": "Mueller Market",
+        "label": "Mueller Market",
+        "geo": {
+          "lat": 30.303,
+          "lng": -97.705
+        },
+        "countryCode": "US",
+        "query": "2006 Philomena St Austin TX"
+      },
+      {
+        "id": "oasis",
+        "name": "The Oasis",
+        "label": "The Oasis",
+        "geo": {
+          "lat": 30.4053,
+          "lng": -97.8748
+        },
+        "countryCode": "US",
+        "query": "6550 Comanche Trail Austin TX"
+      },
+      {
+        "id": "barton",
+        "name": "Barton Springs",
+        "label": "Barton Springs",
+        "geo": {
+          "lat": 30.264,
+          "lng": -97.7713
+        },
+        "countryCode": "US",
+        "query": "2201 William Barton Dr Austin TX"
+      },
+      {
+        "id": "terry",
+        "name": "Terry Black’s BBQ",
+        "label": "Terry Black’s BBQ",
+        "geo": {
+          "lat": 30.2597,
+          "lng": -97.754
+        },
+        "countryCode": "US",
+        "query": "1003 Barton Springs Rd Austin TX"
+      },
+      {
+        "id": "lake",
+        "name": "Lady Bird Lake",
+        "label": "Lady Bird Lake",
+        "geo": {
+          "lat": 30.265,
+          "lng": -97.756
+        },
+        "countryCode": "US",
+        "query": "Auditorium Shores Austin TX"
+      },
+      {
+        "id": "roosevelt",
+        "name": "The Roosevelt Room",
+        "label": "The Roosevelt Room",
+        "geo": {
+          "lat": 30.2676,
+          "lng": -97.7461
+        },
+        "countryCode": "US",
+        "query": "307 W 5th St Austin TX"
+      },
+      {
+        "id": "whitehorse",
+        "name": "The White Horse",
+        "label": "The White Horse",
+        "geo": {
+          "lat": 30.263,
+          "lng": -97.7278
+        },
+        "countryCode": "US",
+        "query": "500 Comal St Austin TX"
+      },
+      {
+        "id": "p6",
+        "name": "P6 at The LINE",
+        "label": "P6 at The LINE",
+        "geo": {
+          "lat": 30.262,
+          "lng": -97.7442
+        },
+        "countryCode": "US",
+        "query": "111 E Cesar Chavez St Austin TX"
+      },
+      {
+        "id": "interstellar",
+        "name": "Interstellar BBQ",
+        "label": "Interstellar BBQ",
+        "geo": {
+          "lat": 30.462,
+          "lng": -97.814
+        },
+        "countryCode": "US",
+        "query": "12233 Ranch Road 620 N Suite 105 Austin TX"
+      }
+    ],
+    "routes": [
+      {
+        "day": 1,
+        "placeIds": [
+          "aus",
+          "labarbecue"
+        ]
+      },
+      {
+        "day": 2,
+        "placeIds": [
+          "bonnell",
+          "franklin",
+          "roosevelt",
+          "whitehorse"
+        ]
+      },
+      {
+        "day": 3,
+        "placeIds": [
+          "mueller",
+          "oasis"
+        ]
+      },
+      {
+        "day": 4,
+        "placeIds": [
+          "barton",
+          "terry",
+          "lake",
+          "p6"
+        ]
+      }
+    ],
+    "dailyRoutes": [
+      {
+        "day": 1,
+        "placeIds": [
+          "aus",
+          "labarbecue"
+        ]
+      },
+      {
+        "day": 2,
+        "placeIds": [
+          "bonnell",
+          "franklin",
+          "roosevelt",
+          "whitehorse"
+        ]
+      },
+      {
+        "day": 3,
+        "placeIds": [
+          "mueller",
+          "oasis"
+        ]
+      },
+      {
+        "day": 4,
+        "placeIds": [
+          "barton",
+          "terry",
+          "lake",
+          "p6"
+        ]
+      }
+    ],
+    "region": {
+      "id": "austin",
+      "label": "Austin & Lake Travis",
+      "countryCode": "US",
+      "title": "Five days around Austin",
+      "description": "Illustrative route map; approximate public-place positions, not a navigational map."
+    }
+  },
+  "routeMap": {
+    "defaultRegionId": "austin",
+    "regions": [
+      {
+        "id": "austin",
+        "label": "Austin & Lake Travis",
+        "countryCode": "US",
+        "scope": "template-schematic",
+        "mapMode": "frozen-template",
+        "templateId": "urban-radial",
+        "mapModeReason": "dense-place-cluster",
+        "mapModeMetrics": {
+          "placeCount": 13,
+          "geoPlaceCount": 13,
+          "widthKm": 19.97,
+          "heightKm": 29.36,
+          "spanKm": 32.64,
+          "averageNearestKm": 3.32,
+          "components": 4,
+          "largestLegKm": 19.87,
+          "jumpRatio": 10.86
+        },
+        "days": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "canvas": {
+          "width": 1448,
+          "height": 1086
+        },
+        "projection": {
+          "type": "relative-schematic",
+          "bounds": null
+        },
+        "baseImage": "assets/maps/templates/template-04-urban.webp",
+        "title": "Five days around Austin",
+        "ariaLabel": "Austin & Lake Travis: schematic route map, 4 days",
+        "description": "Illustrative route map; approximate public-place positions, not a navigational map.",
+        "disclaimer": "Schematic only: relative locations and route order, not true scale. Open Google Maps for navigation.",
+        "heading": {
+          "text": "Austin & Lake Travis",
+          "x": 33,
+          "y": 105,
+          "size": 40
+        },
+        "legend": {
+          "x": 35,
+          "y": 168,
+          "gap": 43
+        },
+        "annotations": [],
+        "routes": [
+          {
+            "day": 1,
+            "color": "#397dc1",
+            "placeIds": [
+              "aus",
+              "labarbecue"
+            ],
+            "paths": [
+              "M1063.59 848.8 C1030.1 823.7 1006.1 791.5 993.01 754.1"
+            ],
+            "overviewPaths": [
+              "M1063.59 848.8 C1030.1 823.7 1006.1 791.5 993.01 754.1"
+            ]
+          },
+          {
+            "day": 2,
+            "color": "#e77e22",
+            "placeIds": [
+              "bonnell",
+              "franklin",
+              "roosevelt",
+              "whitehorse"
+            ],
+            "paths": [
+              "M839.03 539.22 C863.3 570.2 894.0 592.1 929.38 603.75 C909.1 656.5 876.2 699.5 832.58 730.31 C898.3 723.8 957.0 700.0 1005.24 660.28"
+            ],
+            "overviewPaths": [
+              "M839.03 539.22 C817.7 603.5 815.5 668.5 832.58 730.31 C884.3 689.2 943.0 665.4 1005.24 660.28"
+            ]
+          },
+          {
+            "day": 3,
+            "color": "#618344",
+            "placeIds": [
+              "mueller",
+              "oasis"
+            ],
+            "paths": [
+              "M1014.4 562.89 C867.7 514.6 735.8 440.1 626.41 343.95"
+            ],
+            "overviewPaths": [
+              "M1014.4 562.89 C867.7 514.6 735.8 440.1 626.41 343.95"
+            ]
+          },
+          {
+            "day": 4,
+            "color": "#209aaa",
+            "placeIds": [
+              "barton",
+              "terry",
+              "lake",
+              "p6"
+            ],
+            "paths": [
+              "M756.16 681.26 C796.3 732.7 847.1 769.2 905.67 788.65 C869.2 743.2 848.0 691.5 843.23 636.54 C862.5 664.1 887.6 684.2 917.2 695.77"
+            ],
+            "overviewPaths": [
+              "M756.16 681.26 C790.2 674.8 819.8 659.6 843.23 636.54 C874.3 649.3 899.5 669.4 917.2 695.77"
+            ]
+          }
+        ],
+        "places": [
+          {
+            "id": "aus",
+            "x": 1063.59,
+            "y": 848.8,
+            "color": "#397dc1",
+            "tx": 1095.59,
+            "ty": 816.8,
+            "size": 24,
+            "anchor": "start",
+            "lines": [
+              "Austin Airport"
+            ],
+            "query": "Austin-Bergstrom International Airport",
+            "geo": {
+              "lat": 30.1975,
+              "lng": -97.6664
+            },
+            "days": [
+              1
+            ]
+          },
+          {
+            "id": "bonnell",
+            "x": 839.03,
+            "y": 539.22,
+            "color": "#e77e22",
+            "tx": 807.03,
+            "ty": 507.22,
+            "size": 24,
+            "anchor": "end",
+            "lines": [
+              "Mount Bonnell"
+            ],
+            "query": "3800 Mount Bonnell Rd Austin TX",
+            "geo": {
+              "lat": 30.3217,
+              "lng": -97.7733
+            },
+            "days": [
+              2
+            ]
+          },
+          {
+            "id": "franklin",
+            "x": 929.38,
+            "y": 603.75,
+            "color": "#e77e22",
+            "tx": 1067.38,
+            "ty": 515.75,
+            "size": 24,
+            "anchor": "start",
+            "lines": [
+              "Franklin Barbecue"
+            ],
+            "query": "900 E 11th St Austin TX",
+            "geo": {
+              "lat": 30.2701,
+              "lng": -97.7313
+            },
+            "days": [
+              2
+            ]
+          },
+          {
+            "id": "labarbecue",
+            "x": 993.01,
+            "y": 754.1,
+            "color": "#397dc1",
+            "tx": 1131.01,
+            "ty": 666.1,
+            "size": 24,
+            "anchor": "start",
+            "lines": [
+              "la Barbecue"
+            ],
+            "query": "2401 E Cesar Chavez St Austin TX",
+            "geo": {
+              "lat": 30.2543,
+              "lng": -97.7177
+            },
+            "days": [
+              1
+            ]
+          },
+          {
+            "id": "mueller",
+            "x": 1014.4,
+            "y": 562.89,
+            "color": "#618344",
+            "tx": 1046.4,
+            "ty": 530.89,
+            "size": 24,
+            "anchor": "start",
+            "lines": [
+              "Mueller Market"
+            ],
+            "query": "2006 Philomena St Austin TX",
+            "geo": {
+              "lat": 30.303,
+              "lng": -97.705
+            },
+            "days": [
+              3
+            ]
+          },
+          {
+            "id": "oasis",
+            "x": 626.41,
+            "y": 343.95,
+            "color": "#618344",
+            "tx": 764.41,
+            "ty": 445.95,
+            "size": 24,
+            "anchor": "start",
+            "lines": [
+              "The Oasis"
+            ],
+            "query": "6550 Comanche Trail Austin TX",
+            "geo": {
+              "lat": 30.4053,
+              "lng": -97.8748
+            },
+            "days": [
+              3
+            ]
+          },
+          {
+            "id": "barton",
+            "x": 756.16,
+            "y": 681.26,
+            "color": "#209aaa",
+            "tx": 724.16,
+            "ty": 649.26,
+            "size": 24,
+            "anchor": "end",
+            "lines": [
+              "Barton Springs"
+            ],
+            "query": "2201 William Barton Dr Austin TX",
+            "geo": {
+              "lat": 30.264,
+              "lng": -97.7713
+            },
+            "days": [
+              4
+            ]
+          },
+          {
+            "id": "terry",
+            "x": 905.67,
+            "y": 788.65,
+            "color": "#209aaa",
+            "tx": 873.67,
+            "ty": 838.65,
+            "size": 24,
+            "anchor": "end",
+            "lines": [
+              "Terry Black’s BBQ"
+            ],
+            "query": "1003 Barton Springs Rd Austin TX",
+            "geo": {
+              "lat": 30.2597,
+              "lng": -97.754
+            },
+            "days": [
+              4
+            ]
+          },
+          {
+            "id": "lake",
+            "x": 843.23,
+            "y": 636.54,
+            "color": "#209aaa",
+            "tx": 765.23,
+            "ty": 574.54,
+            "size": 24,
+            "anchor": "end",
+            "lines": [
+              "Lady Bird Lake"
+            ],
+            "query": "Auditorium Shores Austin TX",
+            "geo": {
+              "lat": 30.265,
+              "lng": -97.756
+            },
+            "days": [
+              4
+            ]
+          },
+          {
+            "id": "roosevelt",
+            "x": 832.58,
+            "y": 730.31,
+            "color": "#e77e22",
+            "tx": 800.58,
+            "ty": 780.31,
+            "size": 24,
+            "anchor": "end",
+            "lines": [
+              "The Roosevelt Room"
+            ],
+            "query": "307 W 5th St Austin TX",
+            "geo": {
+              "lat": 30.2676,
+              "lng": -97.7461
+            },
+            "days": [
+              2
+            ]
+          },
+          {
+            "id": "whitehorse",
+            "x": 1005.24,
+            "y": 660.28,
+            "color": "#e77e22",
+            "tx": 1083.24,
+            "ty": 598.28,
+            "size": 24,
+            "anchor": "start",
+            "lines": [
+              "The White Horse"
+            ],
+            "query": "500 Comal St Austin TX",
+            "geo": {
+              "lat": 30.263,
+              "lng": -97.7278
+            },
+            "days": [
+              2
+            ]
+          },
+          {
+            "id": "p6",
+            "x": 917.2,
+            "y": 695.77,
+            "color": "#209aaa",
+            "tx": 949.2,
+            "ty": 745.77,
+            "size": 24,
+            "anchor": "start",
+            "lines": [
+              "P6 at The LINE"
+            ],
+            "query": "111 E Cesar Chavez St Austin TX",
+            "geo": {
+              "lat": 30.262,
+              "lng": -97.7442
+            },
+            "days": [
+              4
+            ]
+          },
+          {
+            "id": "interstellar",
+            "x": 753.96,
+            "y": 206.2,
+            "color": "#397dc1",
+            "tx": 785.96,
+            "ty": 174.2,
+            "size": 24,
+            "anchor": "start",
+            "lines": [
+              "Interstellar BBQ"
+            ],
+            "query": "12233 Ranch Road 620 N Suite 105 Austin TX",
+            "geo": {
+              "lat": 30.462,
+              "lng": -97.814
+            },
+            "days": []
+          }
+        ],
+        "overviewPlaceIds": [
+          "aus",
+          "labarbecue",
+          "bonnell",
+          "roosevelt",
+          "whitehorse",
+          "mueller",
+          "oasis",
+          "barton",
+          "lake",
+          "p6"
+        ],
+        "dailyLayouts": {
+          "1": {
+            "places": [
+              "aus",
+              "labarbecue"
+            ],
+            "labels": {
+              "aus": {
+                "x": 1095.59,
+                "y": 816.8,
+                "anchor": "start"
+              },
+              "labarbecue": {
+                "x": 1131.01,
+                "y": 666.1,
+                "anchor": "start"
+              }
+            },
+            "transport": [
+              {
+                "items": [],
+                "x": 1028.3,
+                "y": 801.45
+              }
+            ]
+          },
+          "2": {
+            "places": [
+              "bonnell",
+              "franklin",
+              "roosevelt",
+              "whitehorse"
+            ],
+            "labels": {
+              "bonnell": {
+                "x": 807.03,
+                "y": 507.22,
+                "anchor": "end"
+              },
+              "franklin": {
+                "x": 1067.38,
+                "y": 515.75,
+                "anchor": "start"
+              },
+              "roosevelt": {
+                "x": 800.58,
+                "y": 780.31,
+                "anchor": "end"
+              },
+              "whitehorse": {
+                "x": 1083.24,
+                "y": 598.28,
+                "anchor": "start"
+              }
+            },
+            "transport": [
+              {
+                "items": [],
+                "x": 884.2,
+                "y": 571.49
+              },
+              {
+                "items": [],
+                "x": 880.98,
+                "y": 667.03
+              },
+              {
+                "items": [],
+                "x": 918.91,
+                "y": 695.29
+              }
+            ]
+          },
+          "3": {
+            "places": [
+              "mueller",
+              "oasis"
+            ],
+            "labels": {
+              "mueller": {
+                "x": 1046.4,
+                "y": 530.89,
+                "anchor": "start"
+              },
+              "oasis": {
+                "x": 764.41,
+                "y": 445.95,
+                "anchor": "start"
+              }
+            },
+            "transport": [
+              {
+                "items": [],
+                "x": 820.4,
+                "y": 453.42
+              }
+            ]
+          },
+          "4": {
+            "places": [
+              "barton",
+              "terry",
+              "lake",
+              "p6"
+            ],
+            "labels": {
+              "barton": {
+                "x": 724.16,
+                "y": 649.26,
+                "anchor": "end"
+              },
+              "terry": {
+                "x": 873.67,
+                "y": 838.65,
+                "anchor": "end"
+              },
+              "lake": {
+                "x": 765.23,
+                "y": 574.54,
+                "anchor": "end"
+              },
+              "p6": {
+                "x": 949.2,
+                "y": 745.77,
+                "anchor": "start"
+              }
+            },
+            "transport": [
+              {
+                "items": [],
+                "x": 830.91,
+                "y": 734.95
+              },
+              {
+                "items": [],
+                "x": 874.45,
+                "y": 712.6
+              },
+              {
+                "items": [],
+                "x": 880.22,
+                "y": 666.15
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
